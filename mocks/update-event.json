@@ -1,0 +1,11 @@
+{
+    "body": "{\"content\":\"hi world\",\"attachment\":\"hi.jpg\"}",
+        "requestContext": {
+            "identity": {
+            "cognitoIdentityId": "USER-SUB-1234"
+            }
+        },
+        "pathParameters": {
+            "id": "c3f2b230-5282-11ea-bcb5-a3d342dc9f6d"
+        }
+}
