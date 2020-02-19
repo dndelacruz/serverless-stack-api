@@ -9,8 +9,8 @@ export async function main(event, context){
             userId: event.requestContext.identity.cognitoIdentityId,
             noteId: event.pathParameters.id
         },
-        UpdateExpression: "SET content = :content, attachment = :attachment",
-        EpressionAttributeValues: {
+        UpdateExpression: "SET content=:content, attachment=:attachment",
+        ExpressionAttributeValues: {
             ":attachment": data.attachment || null,
             ":content": data.content || null
          },
